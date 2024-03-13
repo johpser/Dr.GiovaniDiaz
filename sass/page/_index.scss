@@ -1,0 +1,168 @@
+.titulo{
+    color: #0077b6;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin: 115px 0px 42px 0px;
+    padding: 0px 0px 0px 40px;
+}
+
+.bienvenida{
+    margin-top: 5%;
+
+
+    .profesional{
+        font-size: 400%;
+        font-weight: 500;
+        color: #ffd60a;
+        line-height: 1em;
+        padding-left: 4%;
+    }
+    
+.psicologo{
+    padding-left:  4%;
+    font-size: 400%;
+    font-weight: 500;
+    line-height: 1em;
+    color: #0077b6;
+} 
+
+}
+
+.box{
+    margin-left: 4%;
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows:118%;
+    column-gap: 3%;
+    row-gap: 2%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    grid-template-areas: 
+    "box1 box2";
+
+    .box1{
+    
+        border-radius: 0px 0px 0px 0px;
+        background: #0077b6;
+        grid-area: box1;
+        text-align: center;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .tipoh{
+        font-size: 170%;
+        font-weight: 500;
+        line-height: 1.5em;
+        color: #FFFFFF;
+        margin: 0px 0px 5px 0px;
+        padding: 5px 0px 0px 0px;
+    }
+
+    .boton1 {
+        font-family: "Ubuntu", Sans-serif;
+        font-size: 79%;
+        font-weight: 700;
+        line-height: 16px;
+        width: 28%;
+        height: 22%;
+        border-radius: 100px 100px 100px 100px;
+        margin: 25px 0px 5px 0px;
+        background-color: #ffd60a;
+        color: #0077b6;
+    }
+    }
+
+    .box2{
+    
+        border-radius: 0px 0px 0px 0px;
+        grid-area: box2;
+        text-align: center;
+        border-radius: 15px 15px 15px 15px;
+        background: #0077b6;
+
+        .horario{
+            font-size: 170%;
+            font-weight: 500;
+            line-height: 1.5em;
+            color: #FFFFFF;
+            margin: 0px 0px 5px 0px;
+            padding: 5px 0px 0px 0px;
+        }
+        .horario1 {
+            color: #FFFFFF;
+            font-size: 118%;
+            font-weight: 500;
+            line-height: 1.2em;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+    }
+
+    .img1 img {
+        width: 183%;
+        height: 74%;
+        border-radius: 100px 100px 100px 100px;
+    }
+
+    .boximg {
+        margin-left: 4%;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 17% 57%;
+        column-gap: 3%;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        grid-template-areas:
+            "bienvenida2 imagen1"
+            "descripcion1 imagen1";
+
+            .img1{
+                grid-area: imagen1;
+                width: 240px;
+                height: 650px;
+            }
+
+            .bienvenida2 {
+                color: rgb(1, 72, 109);
+                font-family: Ubuntu, sans-serif;
+                font-size: 39px;
+                font-weight: 700;
+                letter-spacing: 0.5px;
+                margin: 0px 0px 0px 0px;
+                padding: 0px;
+                grid-area: bienvenida2;
+            }
+
+                .descrpcion1{
+
+                grid-area: descripcion1;
+                color: #444;
+                font-size: 32px;
+                padding-top: 0%;
+                font-weight: 300;
+            
+            .boton2 {
+                font-family: "Ubuntu", Sans-serif;
+                font-size: 43%;
+                font-weight: 700;
+                line-height: 16px;
+                width: 28%;
+                height: 10%;
+                border-radius: 100px 100px 100px 100px;
+                margin: 25px 0px 5px 0px;
+                background-color: #ffd60a;
+                color: #0077b6;
+            }
+        }
+    }
+
+
+    
+
+
+

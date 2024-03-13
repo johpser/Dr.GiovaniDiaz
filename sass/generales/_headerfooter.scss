@@ -1,0 +1,137 @@
+
+.header{
+
+    .navcolor{
+        background-color: #ffffff;
+        box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.1607843137254902);
+        transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    }
+    
+}
+
+.necesitas {
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: 40% 15% 40%;
+    grid-template-rows: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-template-areas: "necesitas2 necesitas3 necesitas4";
+
+    
+.necesitas2{
+    grid-area: necesitas2;
+    text-align: center;
+    border-radius:15px 0px 0px 15px;
+    background: #0077b6;
+
+    
+.t1 {
+    color: rgb(255, 255, 255);
+    font-size: 149%;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 14px 0px 0px 0px;
+}
+
+.t2 {
+    font-size: 160%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    line-height: 1.1em;
+}
+    }
+}
+
+.necesitas3 {
+    grid-area: necesitas3;
+    text-align: center;
+    border-radius: 0px;
+    background: rgb(0, 119, 182);
+    padding: 20px 0px 14px 0px;
+
+    .telefono {
+        width: 120px;
+        margin: 0px 0px 0px 32px;
+    }
+}
+
+.necesitas4{
+    grid-area: necesitas4;
+    text-align: center;
+    border-radius: 0px 15px 15px 0px;
+    background: #0077b6;
+
+    .t3 {
+        font-weight: 500;
+        line-height: 1.5em;
+        color: rgb(255, 255, 255);
+        margin: 0px 0px 5px;
+        padding: 34px 3px 0px 0px;
+        font-size: 149%;
+    }
+    
+.t4 {
+    color: rgb(255, 255, 255);
+    font-size: 160%;
+    font-weight: 500;
+    line-height: 1.1em;
+    padding: 0px 0px 0px 0px;
+}
+}
+
+footer img{
+    width: 50px; 
+}
+
+footer{
+    padding-top: 1%;
+    height: 100px;
+    margin-top: 5%;
+    background-color: #FFFFFF;
+    box-shadow: 1px -20px 20px 0px rgba(0, 0, 0, 0.1607843137254902);
+    transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+    .footer2{
+        display: grid;
+        grid-template-columns: 60px 60px;
+        grid-template-rows: 22px 47px 29px;
+        row-gap: 2%;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        grid-template-areas:
+            "textof textof"
+            "logolinkedin logogoogle"
+            "textof2 textof2"; 
+
+            .textof{
+                color: #0077b6;
+                font-size: 16px;
+                font-weight: 500;
+                grid-area: textof;
+            }
+
+            .logolinkedin{
+                grid-area: logolinkedin;
+            }
+
+            .logogoogle{
+                padding: 8px;
+                grid-area: logogoogle;
+            }
+            
+.textof2{
+    color: #0077b6;
+    font-size: 16px;
+    font-weight: 500;
+    grid-area: textof2;
+}
+    }
+
+    }
+
+
