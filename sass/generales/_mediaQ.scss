@@ -397,16 +397,18 @@ textarea {
     .img1 img {
         width: 557px;
         height: 600px;
+        margin-top: 25px
     }
-    }
+    
 
     .bienvenida2{
+        margin: 38px 0px 0px 0px;
         .boton2 {
             font-size: 54%;
             width: 45%;
             height: 14%;
         }
-
+    }
     }
 
     .necesitas {
@@ -439,11 +441,11 @@ textarea {
 
     .bannerperfil {
         display: grid;
-        grid-template-columns: 18% 70%;
-        grid-template-rows: 48% 50%;
+        grid-template-columns: 29% 70%;
+        grid-template-rows: 69% 23%;
         grid-template-areas:
             "foto nombrege"
-            "foto descriperfil";
+            "descriperfil descriperfil";
 
             .fotoperfil2 {
                 border-radius: 100px 100px 100px 100px;
@@ -453,14 +455,17 @@ textarea {
             .nombrege1 {
                 margin: 24px -2px 0px 0px;
                 font-size: 230%;
+                text-align: center;
             }
     }
 
     .descriperfil {
-        font-size: 224%;
-        font-weight: 500;
-        color: #0077b6;
-        grid-area: descriperfil;
+        font-size: 31px;
+    font-weight: 500;
+    color: #0077b6;
+    grid-area: descriperfil;
+    margin-left: 2px;
+    margin-right: 2px;
     }
 
 }
@@ -499,56 +504,87 @@ margin-bottom: 13%;
 .cardpadre {
     margin-top: 15%;
     grid-template-columns: 45% 45%;
-    grid-template-rows: 34% 34% 34%;
+    grid-template-rows: 30% 30% 30%;
     row-gap: 6%;
+    column-gap: 8px;
+    justify-items: center;
     grid-template-areas:
         "card1 card2"
         "card3 card4"
         "card5 card6";
 
 
-        .card1 {
-            width: 292px;
-            height: 300px;
+            .card1 {
+                width: 190px;
+                height: 227px;
+
+                .imgcad22 {
+                    width: 189px;
+                }
             .cartitle1 {
                 padding-top: 16px;
+                    font-size: 12px;
             }
         }
 
         .card2 {
-            width: 292px;
-            height: 300px;
+            width: 190px;
+            height: 227px;
+                .imgcad2 {
+                    width: 190px;
+                    height: 128px;
+                }
             .cartitle2 {
                 padding-top: 10px;
+                font-size: 12px;
             }
         }
     
         .card3 {
-            width: 292px;
-            height: 300px;
+            width: 190px;
+            height: 227px;
+            .imgcad22 {
+                width: 189px
+            }
+            .cartitle3 {
+                font-size: 12px;
         }
-    
+        }
         .card4 {
-            width: 292px;
-            height: 300px;
+            width: 190px;
+            height: 227px;
+            .imgcad22 {
+                width: 189px
+            }
             .cartitle4{
             padding-top: 26px;
+            font-size: 12px;
             }
         }
     
         .card5 {
-            width: 292px;
-            height: 300px;
-            .cartitle5 {
-                margin-top: 7%;
-                padding-top: 3px;
+            width: 190px;
+            height: 227px;
+            .imgcad22 {
+                width: 189px
             }
-        
+            .cartitle5 {
+                
+                padding-top: 27px;
+                font-size: 12px;
+            }
         }
     
         .card6 {
-            width: 292px;
-            height: 300px;
+            width: 190px;
+            height: 227px;
+            .cartitle6 {
+               
+                font-size: 12px;
+            }
+            .imgcad22 {
+                width: 189px
+            }
         }
 }
 
@@ -594,7 +630,7 @@ margin-bottom: 13%;
 .envienosc{
     font-size: 31px;
     }
-.comentarioc{
+    .comentarioc{
      font-size: 31px;
     
     }

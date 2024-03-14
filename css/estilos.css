@@ -1154,8 +1154,12 @@ form .boton:hover {
   .boximg .img1 img {
     width: 557px;
     height: 600px;
+    margin-top: 25px;
   }
-  .bienvenida2 .boton2 {
+  .boximg .bienvenida2 {
+    margin: 38px 0px 0px 0px;
+  }
+  .boximg .bienvenida2 .boton2 {
     font-size: 54%;
     width: 45%;
     height: 14%;
@@ -1183,9 +1187,9 @@ form .boton:hover {
   }
   .bannerperfil {
     display: grid;
-    grid-template-columns: 18% 70%;
-    grid-template-rows: 48% 50%;
-    grid-template-areas: "foto nombrege" "foto descriperfil";
+    grid-template-columns: 29% 70%;
+    grid-template-rows: 69% 23%;
+    grid-template-areas: "foto nombrege" "descriperfil descriperfil";
   }
   .bannerperfil .fotoperfil2 {
     border-radius: 100px 100px 100px 100px;
@@ -1194,12 +1198,15 @@ form .boton:hover {
   .bannerperfil .nombrege .nombrege1 {
     margin: 24px -2px 0px 0px;
     font-size: 230%;
+    text-align: center;
   }
   .bannerperfil .descriperfil {
-    font-size: 224%;
+    font-size: 31px;
     font-weight: 500;
     color: #0077b6;
     grid-area: descriperfil;
+    margin-left: 2px;
+    margin-right: 2px;
   }
   .descripcionper {
     font-size: 177%;
@@ -1221,46 +1228,77 @@ form .boton:hover {
   .cardpadre {
     margin-top: 15%;
     grid-template-columns: 45% 45%;
-    grid-template-rows: 34% 34% 34%;
+    grid-template-rows: 30% 30% 30%;
     row-gap: 6%;
+    -moz-column-gap: 8px;
+         column-gap: 8px;
+    justify-items: center;
     grid-template-areas: "card1 card2" "card3 card4" "card5 card6";
   }
   .cardpadre .card1 {
-    width: 292px;
-    height: 300px;
+    width: 190px;
+    height: 227px;
+  }
+  .cardpadre .card1 .imgcad22 {
+    width: 189px;
   }
   .cardpadre .card1 .cartitle1 {
     padding-top: 16px;
+    font-size: 12px;
   }
   .cardpadre .card2 {
-    width: 292px;
-    height: 300px;
+    width: 190px;
+    height: 227px;
+  }
+  .cardpadre .card2 .imgcad2 {
+    width: 190px;
+    height: 128px;
   }
   .cardpadre .card2 .cartitle2 {
     padding-top: 10px;
+    font-size: 12px;
   }
   .cardpadre .card3 {
-    width: 292px;
-    height: 300px;
+    width: 190px;
+    height: 227px;
+  }
+  .cardpadre .card3 .imgcad22 {
+    width: 189px;
+  }
+  .cardpadre .card3 .cartitle3 {
+    font-size: 12px;
   }
   .cardpadre .card4 {
-    width: 292px;
-    height: 300px;
+    width: 190px;
+    height: 227px;
+  }
+  .cardpadre .card4 .imgcad22 {
+    width: 189px;
   }
   .cardpadre .card4 .cartitle4 {
     padding-top: 26px;
+    font-size: 12px;
   }
   .cardpadre .card5 {
-    width: 292px;
-    height: 300px;
+    width: 190px;
+    height: 227px;
+  }
+  .cardpadre .card5 .imgcad22 {
+    width: 189px;
   }
   .cardpadre .card5 .cartitle5 {
-    margin-top: 7%;
-    padding-top: 3px;
+    padding-top: 27px;
+    font-size: 12px;
   }
   .cardpadre .card6 {
-    width: 292px;
-    height: 300px;
+    width: 190px;
+    height: 227px;
+  }
+  .cardpadre .card6 .cartitle6 {
+    font-size: 12px;
+  }
+  .cardpadre .card6 .imgcad22 {
+    width: 189px;
   }
   .cajaimgbanner {
     margin-bottom: 12%;
