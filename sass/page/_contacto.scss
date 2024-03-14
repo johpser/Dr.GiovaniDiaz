@@ -226,6 +226,7 @@
             margin-bottom: 5%;
             background-color: #fbfbfb;
             border-radius: 100px;
+            border: solid 1px #ffd60a;
             width: 80%;
             height: 663px;
             display: grid;
@@ -330,9 +331,10 @@
             .boton{
                 grid-area: boton;
     height: 76%;
+    border: solid 2px black;
     border-radius: 15px;
-    background-color: #ffd60a;
-    color: #FFFFFF;
+    background-color:  #0077b6;
+    color:#eeeeee;
     font-size: 96%;
     font-weight: 700;
     margin-left: 82%;

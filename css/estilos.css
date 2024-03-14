@@ -247,7 +247,9 @@ footer .footer2 .textof2 {
 .img1 img {
   width: 183%;
   height: 74%;
+  margin-left: 53px;
   border-radius: 100px 100px 100px 100px;
+  border: solid 2px #ffd60a;
 }
 
 .boximg {
@@ -467,6 +469,7 @@ footer .footer2 .textof2 {
 }
 
 .card1 {
+  border: solid 1px #ffd60a;
   grid-area: card1;
   background-color: #EFEFEF;
   border-radius: 15px 15px;
@@ -484,6 +487,7 @@ footer .footer2 .textof2 {
 }
 
 .card2 {
+  border: solid 1px #ffd60a;
   grid-area: card1;
   background-color: #EFEFEF;
   border-radius: 15px 15px;
@@ -502,6 +506,7 @@ footer .footer2 .textof2 {
 }
 
 .card3 {
+  border: solid 1px #ffd60a;
   grid-area: card1;
   background-color: #EFEFEF;
   border-radius: 15px 15px;
@@ -520,6 +525,7 @@ footer .footer2 .textof2 {
 }
 
 .card4 {
+  border: solid 1px #ffd60a;
   grid-area: card1;
   background-color: #EFEFEF;
   border-radius: 15px 15px;
@@ -537,6 +543,7 @@ footer .footer2 .textof2 {
 }
 
 .card5 {
+  border: solid 1px #ffd60a;
   grid-area: card1;
   background-color: #EFEFEF;
   border-radius: 15px 15px;
@@ -554,6 +561,7 @@ footer .footer2 .textof2 {
 }
 
 .card6 {
+  border: solid 1px #ffd60a;
   grid-area: card1;
   background-color: #EFEFEF;
   border-radius: 15px 15px;
@@ -786,6 +794,7 @@ form {
   margin-bottom: 5%;
   background-color: #fbfbfb;
   border-radius: 100px;
+  border: solid 1px #ffd60a;
   width: 80%;
   height: 663px;
   display: grid;
@@ -867,9 +876,10 @@ form .caja55 {
 form .boton {
   grid-area: boton;
   height: 76%;
+  border: solid 2px black;
   border-radius: 15px;
-  background-color: #ffd60a;
-  color: #FFFFFF;
+  background-color: #0077b6;
+  color: #eeeeee;
   font-size: 96%;
   font-weight: 700;
   margin-left: 82%;
@@ -1146,11 +1156,8 @@ form .boton:hover {
     padding-left: 14%;
   }
   form .boton {
-    width: 26%;
-    margin-left: 39%;
-    padding-right: 5%;
-    padding-left: 5%;
-    margin-top: 15px;
+    width: 30%;
+    margin-left: 36%;
   }
 }
 @media only screen and (min-width: 460px) and (max-width: 1200px) {
@@ -1187,6 +1194,7 @@ form .boton:hover {
     width: 557px;
     height: 600px;
     margin-top: 25px;
+    margin-left: 70px;
   }
   .boximg .bienvenida2 {
     margin: 38px 0px 0px 0px;
@@ -1442,7 +1450,7 @@ form .boton:hover {
     font-size: 153%;
     height: 50%;
     width: 132px;
-    margin-left: 141px;
+    margin-left: 291px;
     padding-right: 0%;
     padding-left: 0%;
   }
