@@ -884,13 +884,13 @@ form .boton:hover {
   .boximg {
     margin-top: -25%;
     row-gap: 2%;
-    grid-template-columns: 90%;
+    grid-template-columns: 368px;
     grid-template-rows: 9% 35% 22%;
     grid-template-areas: "bienvenida2" "imagen1" "descripcion1";
     margin-left: 0%;
   }
   .boximg .img1 img {
-    width: 146%;
+    width: 369px;
     height: 50%;
   }
   .boximg .bienvenida2 {
@@ -1275,15 +1275,26 @@ form .boton:hover {
     margin-right: 0px;
     align-items: center;
     margin-bottom: 13%;
+    row-gap: 33px;
   }
   .cotenedorcont .hdescripcion {
     font-size: 170%;
   }
+  .cotenedorcont .hatencion {
+    width: 421px;
+    height: 648px;
+  }
+  .cotenedorcont .mapa {
+    display: none;
+  }
+  .cotenedorcont .mapa2 {
+    display: contents;
+  }
   .textoform .envienosc {
-    font-size: 120%;
+    font-size: 31px;
   }
   .textoform .comentarioc {
-    font-size: 120%;
+    font-size: 31px;
   }
   form {
     margin-left: 5%;
@@ -1361,7 +1372,7 @@ form .boton:hover {
     font-size: 153%;
     height: 50%;
     width: 22%;
-    margin-left: 37%;
-    padding-right: 19%;
+    margin-left: 33%;
+    padding-right: 26%;
   }
 }/*# sourceMappingURL=estilos.css.map */
