@@ -1,2 +1,0 @@
-# Dr.GiovaniDiazGervasi
-# Dr.GiovaniDiaz
