@@ -934,6 +934,7 @@ form .boton:hover {
   .boximg .img1 img {
     width: 369px;
     height: 50%;
+    margin-left: 0px;
   }
   .boximg .bienvenida2 {
     font-size: 170%;
