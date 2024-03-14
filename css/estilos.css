@@ -29,6 +29,7 @@
   align-content: center;
   text-align: center;
   grid-template-areas: "necesitas2 necesitas3 necesitas4";
+  margin-bottom: 70px;
 }
 .necesitas .necesitas2 {
   grid-area: necesitas2;
@@ -754,6 +755,7 @@ footer .footer2 .textof2 {
   font-weight: 500;
   color: #ffd60a;
   line-height: 1em;
+  width: 67%;
 }
 .cotenedorcont .ubi .ubica1 .ubicacion1 {
   font-size: 100%;
@@ -1185,17 +1187,16 @@ form .boton:hover {
   }
   .boximg {
     margin-left: 0%;
-    margin-top: 19%;
+    margin-top: -12%;
     row-gap: 28px;
     grid-template-columns: 90%;
-    grid-template-rows: 11% 58% 44%;
+    grid-template-rows: 15% 38% 28%;
     grid-template-areas: "bienvenida2" "imagen1" "descripcion1";
   }
   .boximg .img1 img {
-    width: 557px;
-    height: 600px;
-    margin-top: 25px;
-    margin-left: 70px;
+    width: 413px;
+    height: 434px;
+    margin-left: 0px;
   }
   .boximg .bienvenida2 {
     margin: 38px 0px 0px 0px;
@@ -1228,7 +1229,7 @@ form .boton:hover {
   }
   .bannerperfil {
     display: grid;
-    grid-template-columns: 29% 70%;
+    grid-template-columns: 20% 69%;
     grid-template-rows: 69% 23%;
     grid-template-areas: "foto nombrege" "descriperfil descriperfil";
   }
@@ -1390,7 +1391,7 @@ form .boton:hover {
     grid-template-areas: "caja1 caja2" "caja11 caja22" "caja3 caja4" "caja33 caja44" "caja5 caja5" "caja55 caja55" "boton boton";
   }
   form .caja1 {
-    padding-left: 13%;
+    padding-left: 20%;
     margin-top: 10%;
     grid-area: caja1;
   }
@@ -1450,9 +1451,7 @@ form .boton:hover {
   form .boton {
     font-size: 153%;
     height: 50%;
-    width: 132px;
-    margin-left: 291px;
-    padding-right: 0%;
-    padding-left: 0%;
+    width: 171px;
+    margin-left: 267px;
   }
 }/*# sourceMappingURL=estilos.css.map */

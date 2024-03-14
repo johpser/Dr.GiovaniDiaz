@@ -394,23 +394,21 @@ textarea {
         }
     }
 
-    .boximg {
-        margin-left: 0%;
-        margin-top: 19%;
-        row-gap: 28px;
-        grid-template-columns: 90%;
-        grid-template-rows: 11% 58% 44%;
-        grid-template-areas:
-            "bienvenida2"
-            "imagen1"
-            "descripcion1";
+        .boximg {
+            margin-left: 0%;
+            margin-top: -12%;
+            row-gap: 28px;
+            grid-template-columns: 90%;
+            grid-template-rows: 15% 38% 28%;
+            grid-template-areas:
+                "bienvenida2"
+                "imagen1"
+                "descripcion1";
 
-            
-    .img1 img {
-        width: 557px;
-        height: 600px;
-        margin-top: 25px;
-            margin-left: 70px;
+        .img1 img {
+            width: 413px;
+            height: 434px;
+            margin-left: 0px;
     }
     
 
@@ -431,6 +429,7 @@ textarea {
         grid-template-areas:
             "necesitas2 necesitas2"
             "necesitas3 necesitas4";
+        
 
             .necesitas2 {
                 border-radius: 35px 35px 0px 0px;
@@ -454,7 +453,7 @@ textarea {
 
     .bannerperfil {
         display: grid;
-        grid-template-columns: 29% 70%;
+        grid-template-columns: 20% 69%;
         grid-template-rows: 69% 23%;
         grid-template-areas:
             "foto nombrege"
@@ -670,8 +669,9 @@ form {
         "boton boton";
 
 
-    .caja1{
-        padding-left: 13%;
+    
+        .caja1 {
+        padding-left: 20%;
         margin-top: 10%;
         grid-area: caja1;
     }
@@ -732,12 +732,10 @@ form {
 
     .boton {
         font-size: 153%;
-    height: 50%;
-    width: 132px;
-    margin-left: 291px;
-    padding-right: 0%;
-    padding-left: 0%;
-    }
+        height: 50%;
+        width: 171px;
+        margin-left: 267px;
+}
 }
 }
 
