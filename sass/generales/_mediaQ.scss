@@ -384,7 +384,16 @@ textarea {
     }
 
     .box {
-        margin-left: 0%;
+        margin-left: 7%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        width: 405px;
+
+
+        .box1{
+        height: 108px;
+        }
 
         .boton1 {
             font-size: 100%;
@@ -392,6 +401,8 @@ textarea {
             height: 28%;
             margin: 9px 0px 5px 0px;
         }
+
+
     }
 
         .boximg {
@@ -404,11 +415,14 @@ textarea {
                 "bienvenida2"
                 "imagen1"
                 "descripcion1";
-                    .img1 img {
-                        width: 413px;
-                        height: 434px;
-                        margin-left: 142px;
-    }
+
+                .img1 img {
+                    margin-left: 0px;
+                    width: 175%;
+                    height: 68%;
+                }
+                
+    
     
 
     .bienvenida2{
@@ -450,15 +464,15 @@ textarea {
             }
     }
 
-    .bannerperfil {
-        display: grid;
-        grid-template-columns: 20% 69%;
-        grid-template-rows: 56% 39%;
-        grid-template-areas:
-            "foto nombrege"
-            "descriperfil descriperfil";
-        margin-top: 20px;
-        height: 140px;
+        .bannerperfil {
+            display: grid;
+            grid-template-columns: 27% 69%;
+            grid-template-rows: 73% 27%;
+            grid-template-areas:
+                "foto nombrege"
+                "descriperfil descriperfil";
+            margin-top: 20px;
+            height: 187px;
 
             .fotoperfil2 {
                 border-radius: 100px 100px 100px 100px;
@@ -466,18 +480,18 @@ textarea {
             }
             .nombrege{
                 .nombrege1 {
-                    margin: 24px -2px 0px 0px;
-                    font-size: 252%;
-                    text-align: center;
+                    margin: 24px 0px 0px 0px;
+    font-size: 229%;
+    text-align: center;
             }
     }
 
     .descriperfil {
-        font-size: 38px;
-        font-weight: 500;
-        color: #0077b6;
-        grid-area: descriperfil;
-        margin-left: 26%;
+        font-size: 33px;
+    font-weight: 500;
+    color: #0077b6;
+    grid-area: descriperfil;
+    margin-left: 4%;
     }
 
 }

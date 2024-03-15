@@ -1177,7 +1177,14 @@ form .boton:hover {
     font-size: 364%;
   }
   .box {
-    margin-left: 0%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    width: 405px;
+  }
+  .box .box1 {
+    height: 108px;
   }
   .box .boton1 {
     font-size: 100%;
@@ -1194,9 +1201,9 @@ form .boton:hover {
     grid-template-areas: "bienvenida2" "imagen1" "descripcion1";
   }
   .boximg .img1 img {
-    width: 413px;
-    height: 434px;
-    margin-left: 142px;
+    margin-left: 0px;
+    width: 175%;
+    height: 68%;
   }
   .boximg .bienvenida2 {
     margin: 38px 0px 0px 0px;
@@ -1229,27 +1236,27 @@ form .boton:hover {
   }
   .bannerperfil {
     display: grid;
-    grid-template-columns: 20% 69%;
-    grid-template-rows: 56% 39%;
+    grid-template-columns: 27% 69%;
+    grid-template-rows: 73% 27%;
     grid-template-areas: "foto nombrege" "descriperfil descriperfil";
     margin-top: 20px;
-    height: 140px;
+    height: 187px;
   }
   .bannerperfil .fotoperfil2 {
     border-radius: 100px 100px 100px 100px;
     margin: 0px 0px 0px 0px;
   }
   .bannerperfil .nombrege .nombrege1 {
-    margin: 24px -2px 0px 0px;
-    font-size: 252%;
+    margin: 24px 0px 0px 0px;
+    font-size: 229%;
     text-align: center;
   }
   .bannerperfil .descriperfil {
-    font-size: 38px;
+    font-size: 33px;
     font-weight: 500;
     color: #0077b6;
     grid-area: descriperfil;
-    margin-left: 26%;
+    margin-left: 4%;
   }
   .descripcionper {
     font-size: 177%;
