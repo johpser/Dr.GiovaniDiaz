@@ -404,11 +404,10 @@ textarea {
                 "bienvenida2"
                 "imagen1"
                 "descripcion1";
-
-                .img1 img {
-                    width: 413px;
-                    height: 434px;
-                    margin-left: 0px;
+                    .img1 img {
+                        width: 413px;
+                        height: 434px;
+                        margin-left: 142px;
     }
     
 
@@ -454,30 +453,31 @@ textarea {
     .bannerperfil {
         display: grid;
         grid-template-columns: 20% 69%;
-        grid-template-rows: 69% 23%;
+        grid-template-rows: 56% 39%;
         grid-template-areas:
             "foto nombrege"
             "descriperfil descriperfil";
+        margin-top: 20px;
+        height: 140px;
 
             .fotoperfil2 {
                 border-radius: 100px 100px 100px 100px;
                 margin: 0px 0px 0px 0px;
             }
             .nombrege{
-            .nombrege1 {
-                margin: 24px -2px 0px 0px;
-                font-size: 230%;
-                text-align: center;
+                .nombrege1 {
+                    margin: 24px -2px 0px 0px;
+                    font-size: 252%;
+                    text-align: center;
             }
     }
 
     .descriperfil {
-        font-size: 31px;
-    font-weight: 500;
-    color: #0077b6;
-    grid-area: descriperfil;
-    margin-left: 2px;
-    margin-right: 2px;
+        font-size: 38px;
+        font-weight: 500;
+        color: #0077b6;
+        grid-area: descriperfil;
+        margin-left: 26%;
     }
 
 }
@@ -734,7 +734,7 @@ form {
         font-size: 153%;
         height: 50%;
         width: 171px;
-        margin-left: 267px;
+        margin-left: 38%;
 }
 }
 }

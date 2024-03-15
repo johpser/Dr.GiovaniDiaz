@@ -1196,7 +1196,7 @@ form .boton:hover {
   .boximg .img1 img {
     width: 413px;
     height: 434px;
-    margin-left: 0px;
+    margin-left: 142px;
   }
   .boximg .bienvenida2 {
     margin: 38px 0px 0px 0px;
@@ -1230,8 +1230,10 @@ form .boton:hover {
   .bannerperfil {
     display: grid;
     grid-template-columns: 20% 69%;
-    grid-template-rows: 69% 23%;
+    grid-template-rows: 56% 39%;
     grid-template-areas: "foto nombrege" "descriperfil descriperfil";
+    margin-top: 20px;
+    height: 140px;
   }
   .bannerperfil .fotoperfil2 {
     border-radius: 100px 100px 100px 100px;
@@ -1239,16 +1241,15 @@ form .boton:hover {
   }
   .bannerperfil .nombrege .nombrege1 {
     margin: 24px -2px 0px 0px;
-    font-size: 230%;
+    font-size: 252%;
     text-align: center;
   }
   .bannerperfil .descriperfil {
-    font-size: 31px;
+    font-size: 38px;
     font-weight: 500;
     color: #0077b6;
     grid-area: descriperfil;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 26%;
   }
   .descripcionper {
     font-size: 177%;
@@ -1452,6 +1453,6 @@ form .boton:hover {
     font-size: 153%;
     height: 50%;
     width: 171px;
-    margin-left: 267px;
+    margin-left: 38%;
   }
 }/*# sourceMappingURL=estilos.css.map */
