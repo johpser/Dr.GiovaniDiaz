@@ -1196,7 +1196,7 @@ form .boton:hover {
   .boximg .img1 img {
     width: 413px;
     height: 434px;
-    margin-left: 0px;
+    margin-left: -10px;
   }
   .boximg .bienvenida2 {
     margin: 38px 0px 0px 0px;
