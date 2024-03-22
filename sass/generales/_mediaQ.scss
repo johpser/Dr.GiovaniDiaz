@@ -25,7 +25,8 @@
     .box {
         margin-top: 12%;
         grid-template-columns: 90%;
-        grid-template-rows: 50% 72%;
+        grid-template-rows: 62% 72%;
+        row-gap: 12px;
         grid-template-areas:
             "box1"
             "box2";
