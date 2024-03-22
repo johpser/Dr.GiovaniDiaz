@@ -20,6 +20,10 @@
   transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
+.colorpg:hover {
+  color: #ffd60a;
+}
+
 .necesitas {
   margin-top: 0%;
   display: grid;
@@ -81,10 +85,13 @@
 }
 .necesitas4 .t4 {
   color: rgb(255, 255, 255);
-  font-size: 160%;
+  font-size: 120%;
   font-weight: 500;
   line-height: 1.1em;
   padding: 0px 0px 0px 0px;
+}
+.necesitas4 .t4:hover {
+  color: #ffd60a;
 }
 
 footer img {
@@ -153,12 +160,12 @@ footer .footer2 .textof2 {
 
 .titulo {
   color: #0077b6;
-  font-family: "Yrsa", serif;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.5px;
   margin: 115px 0px 42px 0px;
   padding: 0px 0px 0px 40px;
+  font-family: "PT Serif", serif;
 }
 
 .bienvenida {
