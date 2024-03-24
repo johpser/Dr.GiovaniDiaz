@@ -1,0 +1,885 @@
+*{
+    margin: 0%;  
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #ffffff;
+}
+
+
+
+    
+.navcolor{
+    background-color: #ffd60a;
+    box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.1607843137254902);
+    transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.titulo{
+    color: #0077b6;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin: 115px 0px 42px 0px;
+    padding: 0px 0px 0px 40px;
+}
+.bienvenida{
+    margin-top: 5%;
+}
+
+.profesional{
+    font-size: 84px;
+    font-weight: 500;
+    color: #ffd60a;
+    line-height: 1em;
+    padding-left: 4%;
+}
+
+.psicologo{
+    padding-left:  4%;
+    font-size: 84px;
+    font-weight: 500;
+    line-height: 1em;
+    color: #0077b6;
+
+} 
+
+.box{
+margin-left: 4%;
+margin-top: 8%;
+display: grid;
+grid-template-columns: 650px 650px;
+grid-template-rows:240px;
+column-gap: 3%;
+row-gap: 2%;
+justify-content: center;
+align-content: center;
+text-align: center;  
+grid-template-areas: 
+"box1 box2";
+}
+
+.box1{
+    
+    border-radius: 0px 0px 0px 0px;
+    background: #0077b6;
+    grid-area: box1;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.tipoh{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    margin: 0px 0px 5px 0px;
+    padding: 50px 0px 0px 0px;
+}
+
+.box2{
+    
+    border-radius: 0px 0px 0px 0px;
+    grid-area: box2;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    background: #0077b6
+}
+
+.horario{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    margin: 0px 0px 5px 0px;
+    padding: 50px 0px 0px 0px;
+}
+
+.horario1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 0.6em;
+    margin: 20px 0px 5px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.horario2{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 0.6em;
+    margin: 0px 0px 5px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.boton1{
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    width: 31%;
+    height: 20%;
+    border-radius: 15px 15px 15px 15px;
+    margin: 30px 0px 5px 0px;
+    
+}
+
+.boximg{
+    margin-left: 4%;
+    display: grid;
+    grid-template-columns: 650px 650px;
+    grid-template-rows:240px 240px;
+    column-gap: 3%;
+    row-gap: 2%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    grid-template-areas: 
+    "bienvenida2 imagen1"
+    "descripcion1 imagen1";
+
+}
+
+.img1{
+    grid-area: imagen1;
+    width: 240px;
+    height: 650px;
+}
+
+.bienvenida2{
+    color: #01486d;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: 92px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    grid-area: bienvenida2;
+}
+
+.descrpcion1{
+    grid-area: descripcion1;
+    color: #444;
+    font-size: 32px;
+    padding-top: 0%;
+    font-weight: 300;
+}
+
+.img1 img{
+    width: 650px;
+    padding-top: 98px;
+}
+
+
+
+.necesitas{
+    
+margin-top: 20%;
+    display: grid;
+    grid-template-columns: 698px 200px 385px;
+    grid-template-rows: 300px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    grid-template-areas: 
+    "necesitas2 necesitas3 necesitas4"
+}
+
+.necesitas2{
+grid-area: necesitas2;
+text-align: center;
+border-radius:15px 0px 0px 15px;
+background: #0077b6
+}
+.necesitas3{
+    grid-area: necesitas3;
+    text-align: center;
+    border-radius: 0px 0px 0px 0px;
+    background: #0077b6;
+    padding: 76px 0px 0px 52px;
+}
+
+.necesitas4{
+    grid-area: necesitas4;
+    text-align: center;
+    border-radius: 0px 15px 15px 0px;
+    background: #0077b6
+}
+
+
+.t1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 87px 0px 0px 0px;
+    
+}
+
+.t2{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    margin: 0px 0px 5px 0px;
+    padding: 0px 0px 0px 0px;
+    line-height: 1.5em;
+}
+
+.t3{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    margin: 0px 0px 5px 0px;
+    padding: 84px 72px 0px 0px;
+}
+
+.t4{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 0px 48px 0px 0px;
+    
+}
+
+.telefono{
+width: 150px;
+}
+
+
+
+footer img{
+    width: 50px; 
+}
+
+footer{
+padding-top: 1%;
+height: 100px;
+margin-top: 5%;
+background-color: #FFFFFF;
+box-shadow: 1px -20px 20px 0px rgba(0, 0, 0, 0.1607843137254902);
+transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.footer2{
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 22px 47px 29px;
+    row-gap: 2%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-template-areas:
+        "textof textof"
+        "logolinkedin logogoogle"
+        "textof2 textof2";
+   
+}
+
+.textof{
+    color: #0077b6;
+    font-size: 16px;
+    font-weight: 500;
+    grid-area: textof;
+}
+
+.logolinkedin{
+    grid-area: logolinkedin;
+}
+
+.logogoogle{
+    padding: 8px;
+    grid-area: logogoogle;
+}
+
+.textof2{
+    color: #0077b6;
+    font-size: 16px;
+    font-weight: 500;
+    grid-area: textof2;
+}
+
+.bannerperfil{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    display: grid;
+    grid-template-columns: 116px 648px;
+    grid-template-rows: 129px;
+    justify-content:left;
+    align-content: center;
+    text-align: justify; 
+    column-gap: 3%; 
+    border-radius:15px 0px 0px 15px;
+    grid-template-areas: 
+    "foto descripcion"
+
+}
+.fotoperfil{
+    grid-area: foto;
+   
+}
+
+.nombrep{
+    grid-area: descripcion;
+}
+
+.fotoperfil2{
+    border-radius:50px 50px 50px 50px;
+}
+
+.nombreg{
+    color: #01486d;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 0px 0px 0px 0px;
+    grid-area: bienvenida2;
+}
+
+.descripciong{
+    font-weight: 500;
+    color:#0077b6;
+    font-size: 23px;
+    padding-top: 0%;
+}
+
+.perf{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1em;
+    color: #0077b6;
+    padding-left: 4%;
+    text-align: center;
+    padding-left:6.5%;
+}
+
+.descripcionper{
+    margin-right: 4%;
+    margin-left: 4%;
+    color: #444;
+    font-size: 18px;
+    padding-top: 0%;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.descripcionper2{
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-left: 4%;
+    color: #444;
+    font-size: 18px;
+    padding-top: 0%;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.nosotros{
+margin-left: 4%;
+margin-right: 4%;
+margin-top: 4%;
+display: grid;
+grid-template-columns: 620px 620px;
+column-gap: 3%;
+row-gap: 2%;
+justify-content: center;
+align-content: center;
+text-align: center;  
+grid-template-areas: 
+"vision mision";
+}
+
+.n2{
+    grid-area: necesitas2;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    background: #0077b6;
+    grid-area: vision;
+}
+
+.n3{
+    grid-area: necesitas2;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    background: #0077b6;
+    grid-area: mision;
+}
+
+.vision{
+    color: #ffffff;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 20px 0px 0px 0px;
+    grid-area: bienvenida2;
+}
+
+.mision{
+    color: #ffffff;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 20px 0px 0px 0px;
+    grid-area: bienvenida2;
+}
+
+.pnosotros{
+    margin-right: 4%;
+    margin-left: 4%;
+    color:#ffffff;
+    font-size: 18px;
+    padding-top: 0%;
+    font-weight: 700;
+    text-align: justify;
+}
+.necesitas11{
+    margin-top: 5%;
+}
+
+
+/* Aqui va el codigo de servicio */
+.serviciotobanner{
+    width: 100%;
+    height: 160px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #eeeeee;
+    text-align: center;
+    }
+
+.cardpadre{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 288px 288px 287px;
+    grid-template-rows: 344px 344px;
+    column-gap: 6%;
+    row-gap: 14%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-template-areas:
+        "card1 card2 card3"
+        "card4 card5 card6";
+ }
+
+
+ .card1{
+    grid-area: card1;
+    background-color: #EFEFEF;
+    border-radius: 15px 15px;
+    grid-area: card1;
+    height: 340px;
+ }
+
+ .card2{
+    grid-area: card1;
+    background-color: #EFEFEF;
+    border-radius: 15px 15px;
+    grid-area: card2;
+    height: 340px;
+ }
+ .imgcad2{
+    width: 288px;
+    height: 192px;
+    border-radius: 15px 15px 15px 15px;
+ }
+ 
+ .imgcad22{
+    width: 288px;
+    border-radius: 15px 15px 15px 15px;
+ }
+
+ .card3{
+    grid-area: card1;
+    background-color: #EFEFEF;
+    border-radius: 15px 15px;
+    grid-area: card3;
+    height: 340px;
+ }
+
+ .card4{
+    grid-area: card1;
+    background-color: #EFEFEF;
+    border-radius: 15px 15px;
+    grid-area: card4;
+    height: 340px;
+ }
+
+ .card5{
+    grid-area: card1;
+    background-color: #EFEFEF;
+    border-radius: 15px 15px;
+    grid-area: card5;
+    height: 340px;
+ }
+
+ .card6{
+    grid-area: card1;
+    background-color: #EFEFEF;
+    border-radius: 15px 15px;
+    grid-area: card6;
+    height: 340px;
+ }
+
+ .cajaimgbanner{
+    margin-top: 12%;
+ }
+
+ .banner22 {
+    height: 400px;
+ }
+
+ .logobanner{
+    width: 350px;
+    margin-top: -8%;
+ }
+
+ .cartitle1{
+    margin-top: 3%;
+ color: #01486d;
+ padding-top: 30px;
+ }
+
+ .cartitle2{
+    margin-top: 3%;
+ color: #01486d;
+ padding-top: 23px;
+ }
+ .cartitle3{
+    margin-top: 3%;
+ color: #01486d;
+ padding-top: 23px;
+ }
+ .cartitle4{
+    margin-top: 3%;
+ color: #01486d;
+ padding-top: 50px;
+ }
+ .cartitle5{
+    margin-top: 3%;
+ color: #01486d;
+ padding-top: 22px;
+ }
+ .cartitle6{
+    margin-top: 3%;
+ color: #01486d;
+ padding-top: 22px;
+ }
+ 
+ .cartitle7{
+    margin-top: 3%;
+    color: #0077b6;
+    padding-top: -9px;
+    font-size: 47px;
+    text-shadow: 2px 0px 3px #000, 8px 5px 10px #000, 0px 0px 0 #000, 0px 0px 0 #000;
+ }
+
+ .servicioselig{
+    margin-top: 8%;
+    text-align: center;
+ }
+ .serviciose1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffd60a;
+    line-height: 1em;
+    
+}
+
+
+ .serviciose{
+    font-size: 50px;
+    font-weight: 500;
+    color:#0077b6;
+    line-height: 1em;
+  
+ }
+
+
+ .necesitas44{
+    margin-top: 5%;
+ }
+/* Aqui empieza el codigo de Contacto */
+
+.contactobanner{
+width: 100%;
+height: 160px;
+border-radius: 0px 0px 15px 15px;
+background-color: #eeeeee;
+text-align: center;
+}
+
+.contactotex{
+    color: #0077b6;
+    font-family: "Ubuntu", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 57px 0px 0px 0px;
+}
+
+.cotenedorcont{
+margin-top: 3%;
+}
+
+.envienosc{
+    
+    font-size: 60px;
+    font-weight: 500;
+    color: #ffd60a;
+    line-height: 1em;
+    padding-left: 4%;
+}
+
+.comentarioc{
+    font-size: 60px;
+    font-weight: 500;
+    color: #0077b6;
+    line-height: 1em;
+}
+
+.cotenedorcont{
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: 493px 812px;
+    grid-template-rows: 708px;
+    column-gap: 3%;
+    justify-content: center;
+    grid-template-areas: "hatencion cuadro";;
+}
+.cuadro{
+    grid-area: cuadro;
+   
+}
+
+.cuadro1{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows:64px 82px 62px 98px 344px 78px;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    grid-template-areas:
+        "envienons3 envienons3"
+        "cajanombre cajaemail"
+        "cajas3 cajas2"
+        "cajamensaje cajamensaje"
+        "cajas1 cajas1"
+        "cajab cajab";
+} 
+
+.textocajas{
+    color: #444;
+    font-size: 32px;
+    font-weight: 350;
+    padding: 37px 0px 0px 37px;
+}
+.envienons3{ 
+    grid-area: envienons3;
+}
+.cajas1{
+    grid-area: cajas1;
+    padding: 0px 0px 0px 39px;
+}
+.cajas2{
+    padding: 0px 0px 0px 39px;
+    grid-area: cajas2;
+}
+
+.cajas3{
+    padding: 0px 0px 0px 39px;
+    grid-area: cajas3;
+}
+.cajanombre{
+    grid-area: cajanombre;
+}
+
+.cajaemail{
+    grid-area: cajaemail;
+}
+
+.cajamensaje{
+   grid-area: cajamensaje;
+}
+
+
+
+.cajas{
+    width: 100%;
+    height: 85%;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+    border-style: none;
+}
+
+.cajaa{
+    width: 100%;
+    height: 85%;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+    border-style: none;
+}
+
+.cajab{
+    grid-area: cajab;
+    text-align: right;
+}
+
+.boton{
+    grid-area: boton;
+    width: 25%;
+    height: 100%;
+    border-radius: 15px;
+    background-color:#ffd60a;
+    color:#FFFFFF;
+    font-size: 150%;
+    font-weight: 700;
+}
+.hatencion{
+background-color: #0077b6;
+border-radius: 20px 20px 20px 20px;
+ grid-area:hatencion ;
+}
+
+.ubi{
+    margin-top: 18%;
+    display: grid;
+    grid-template-columns: 720px;
+    grid-template-rows: 85px 460px;
+    justify-content: center;
+    padding: 0px 0px 0px 714px;
+    grid-template-areas:
+        "ubi1 ubi1"
+        "mapa mapa";
+}
+
+.ubi1{
+    grid-area: ubi1;
+    
+}
+
+.mapa{
+    grid-area: mapa;
+    padding: 0px 0px 0px 44px;
+    
+}
+
+.ubicacion{
+font-size: 60px;
+    font-weight: 500;
+    color: #ffd60a;
+    line-height: 1em;
+    padding-left: 4%;
+}
+.ubicacion1{
+    font-size: 60px;
+    font-weight: 500;
+    color: #0077b6;
+    line-height: 1em;
+
+}
+
+.hdescripcion{
+    font-size: 39px;
+    font-weight: 500;
+    line-height:2.5rem;
+    color: #FFFFFF;
+    margin: 0px 0px 5px 0px;
+    padding: 15px 0px 0px 0px;
+    text-align: center
+}
+
+.hdescripcion2{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgb(255 255 255 / 86%);
+    margin: 0px 0px 5px 0px;
+    padding: 0px 19px 0px 32px;
+    text-align: center;
+}
+.hdescripcion3{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgb(255 255 255 / 86%);
+    margin: 0px 0px 5px 0px;
+    padding: 0px 81px 0px 32px;
+    text-align: center;
+}
+.hturnos{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+    margin: 0px 0px 6px 32px;
+    padding: 32px 0px 0px 0px;
+    text-align: justify;
+}
+
+.hinformacion{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+    margin: 11px 0px 0px 15px;
+    padding: 0px 19px 0px 19px;
+    text-align: justify;
+}
+.datos{
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 101px 279px;
+    grid-template-rows: 105px;
+    row-gap: 3%;
+    justify-content: center;
+    padding: 0px 62px 0px 0px;
+    grid-template-areas:
+        "tlf datost"
+        "email datosc";
+    
+}
+
+.tlf{
+    grid-area: tlf;
+}
+
+.email{
+    grid-area: email;
+}
+
+.datost{
+    grid-area: datost;
+}
+
+.datosc{
+    grid-area: datosc;
+}
+.correod{
+    width: 100px;
+}
+.telefonod{
+    width: 100px;
+}
+
+@media screen and ( max-width: 459px){
+
+}
+
+
+
+
+ 
