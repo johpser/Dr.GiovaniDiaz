@@ -1,0 +1,131 @@
+.bannerperfil {
+    display: grid;
+    grid-template-columns: 12% 49%;
+    grid-template-rows: 48% 50%;
+    grid-template-areas:
+        "foto nombrege"
+        "foto descriperfil";
+
+        .fotoperfil{
+            grid-area: foto;
+            .fotoperfil2 {
+                border-radius: 100px 100px 100px 100px;
+                margin: 0px 0px 0px 12px;
+            }
+        }
+
+        .nombrege{
+            grid-area: nombrege;
+            color: #01486d;
+            .nombrege1 {
+                margin: 24px 40px 0px 0px;
+        }
+        }
+
+        .descriperfil{
+            font-size: 170%;
+            font-weight: 500;
+            color: #0077b6;
+        grid-area: descriperfil;
+    }
+
+}
+
+.perf{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1em;
+    color: #0077b6;
+    padding-left: 4%;
+    text-align: center;
+    padding-left:6.5%;
+}
+
+.descripcionper{
+    margin-right: 4%;
+    margin-left: 4%;
+    color: #444;
+    font-size: 18px;
+    padding-top: 0%;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.descripcionper2{
+    margin-top: 2%;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    color: #444;
+    font-size: 18px;
+    padding-top: 0%;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+.nosotros{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 3%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    grid-template-areas: 
+    "vision mision";
+
+    .n2{
+        grid-area: necesitas2;
+        text-align: center;
+        border-radius: 15px 15px 15px 15px;
+        background: #0077b6;
+        grid-area: vision;
+
+        .vision{
+            color: #ffffff;
+            font-family: "Ubuntu", Sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            padding: 20px 0px 0px 0px;
+            grid-area: bienvenida2;
+        }
+        .pnosotros {
+            margin-right: 4%;
+            margin-left: 4%;
+            color: rgb(255, 255, 255);
+            font-size: 101%;
+            font-weight: 500;
+        }
+    }
+    .n3{
+        grid-area: necesitas2;
+        text-align: center;
+        border-radius: 15px 15px 15px 15px;
+        background: #0077b6;
+        grid-area: mision;
+
+        .mision{
+            color: #ffffff;
+            font-family: "Ubuntu", Sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            padding: 20px 0px 0px 0px;
+            grid-area: bienvenida2;
+        }
+
+        .pnosotros {
+            margin-right: 4%;
+            margin-left: 4%;
+            color: rgb(255, 255, 255);
+            font-size: 101%;
+            font-weight: 500;
+        }
+    }
+    }
+    
+
