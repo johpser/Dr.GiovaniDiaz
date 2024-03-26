@@ -926,7 +926,7 @@ form .boton:hover {
     font-size: 230%;
   }
   .box {
-    margin-top: 12%;
+    margin-top: 20%;
     grid-template-columns: 90%;
     grid-template-rows: 62% 72%;
     row-gap: 12px;
